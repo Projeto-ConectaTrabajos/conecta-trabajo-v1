@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+
+.cor{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(90deg,#304673,white);
+}
+
+.comeco p{
+    font-size: 20px;
+    color: black;
+}
+
+.comeco h2{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.comeco input{
+   background-color: #BFA08E;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.comeco input:hover{
+    background-color: #c08766;
+}
+
+.comeco img{
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.215);
+}
+
+.empresas{
+    margin-top: 50px;
+}
+
+.empresas h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.empresas img{
+    width: 150px;
+}
+
+.logos{
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.funciona h2{
+    margin: 60px 0px 30px 0px;
+}
+
+.funciona p{
+    font-size: 18px;
+}
+
+.comentarios h2{
+    margin: 60px 0px 40px 0px;
+}
+
+.comentario-junto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comentarios img{
+    width: 80px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+
+.foto-recrutador{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.foto-recrutador p{
+    font-weight: 500;
+}
+
+.comentario{
+    padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.315);
+    max-width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+    margin: 10px;
+}
+
+.comentario p {
+    font-size: 20px;
+}
+
+.avaliacao{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cor-fim{
+    background-color: #30467334;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px 10px 20px 10px;
+}
+
+.frase-anuncie p{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.frase-final img{
+    max-width: 230px;
+}
+
+.frase-final input{
+    background-color: #BFA08E;
+     border: none;
+     padding: 10px;
+     font-size: 17px;
+     color: rgb(0, 0, 0);
+     border-radius: 5px;
+     margin-bottom: 50px;
+ }
+ 
+ .frase-final input:hover{
+     background-color: #c08766;
+ }
+
+ @media(max-width:1041px){
+    .comeco img{
+        max-width: 400px;
+    }
+}
+
+@media(max-width:841px){
+    .comeco img{
+        max-width: 100%;
+    }
+}
+
+ @media(max-width:992px){
+    .comentario p {
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width:768px){
+    .comentario-junto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .comentario{
+        width: 100%;
+    }
+
+    .frase-final input{
+        width: 100%;
+        margin: auto;
+        margin-top:20px;
+        margin-bottom: 20px;
+     }
+ 
+     .frase-final img{
+        display: flex;
+         margin: auto;
+         max-width: 200px;
+     }
+}
+
+
+ @media(max-width:536px){
+    .comentario{
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+ }
