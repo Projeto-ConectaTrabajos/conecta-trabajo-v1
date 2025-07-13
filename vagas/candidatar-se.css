@@ -1,0 +1,38 @@
+
+@charset "UTF-8";
+
+body {
+      background-color: #f2f4f8;
+      font-family: "Julius Sans One", serif;
+    }
+
+    .form-container {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 40px;
+      margin-top: 50px;
+    }
+
+    .form-title {
+      font-weight: 600;
+      color: #1d3557;
+    }
+
+    .btn-success {
+      background-color: #0056b3;;
+      border: none;
+    }
+
+    .btn-success:hover {
+      background-color: #cee9e6;
+    }
+
+    .form-label i {
+      margin-right: 5px;
+    }
+    
+    footer p{
+    color: rgb(147, 140, 140);
+    font-size: 18px;
+}
